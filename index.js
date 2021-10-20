@@ -9,4 +9,3 @@ var app = express();
 app.use(bodyParser.json());
 app.listen(port,hostname,()=>console.log("server started"));
 app.use('/emp',empctrl);
-[x]
