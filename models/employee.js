@@ -3,6 +3,6 @@ var stock=mongoose.model('stock',{
     company:{type:String},
     number:{type:String},
     type:{type:String},
-    Quantity:{type:Number},
+    quantity:{type:Number},
 });
  module.exports={stock};
