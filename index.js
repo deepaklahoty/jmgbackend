@@ -7,5 +7,5 @@ var empctrl= require('./controllers/stockController.js')
 const {mongoose}=require('./db.js');
 var app = express();
 app.use(bodyParser.json());
-app.listen(3000,hostname,()=>console.log("server started"));
+app.listen(port,hostname,()=>console.log("server started"));
 app.use('/emp',empctrl);
